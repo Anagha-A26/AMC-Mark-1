@@ -65,16 +65,16 @@ However, instead of reproducing the Nucleo architecture, our design independentl
 
 
 
-**2.BLOCK DIAGRAM**
+**2. BLOCK DIAGRAM**
+
+<img width="1536" height="1024" alt="ChatGPT Image Sep 5, 2026, 11_15_35 PM" src="https://github.com/user-attachments/assets/f2417879-76ab-417a-bf01-fd271e539921" />
 
 
-<img width="1536" height="1024" alt="ChatGPT Image Sep 5, 2026, 08_40_55 PM" src="https://github.com/user-attachments/assets/223d54a4-8cfd-4050-8158-f73f6a89b60a" />
 
 
+**3. Schematic progress**
 
-**3.Schematic progress**
-
-**4.Components Used**
+**4. Components Used**
 
 | **Sl. No.** | **Component Type**     | **Value / Part Number**         | **Quantity** | **Section / Function**          |
 | ----------- | ---------------------- | ------------------------------- | ------------ | ------------------------------- |
