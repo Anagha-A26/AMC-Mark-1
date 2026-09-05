@@ -1,3 +1,4 @@
+
 # AMC-Mark-1
 KiCad-based 2-layer STM32F401RE evaluation board with USB, UART, SPI, I²C, SWD, GPIO expansion, power regulation and user interfaces.
 
@@ -67,8 +68,7 @@ However, instead of reproducing the Nucleo architecture, our design independentl
 **2.BLOCK DIAGRAM**
 
 **STM32F401RE DEVELOPMENT BOARD – BLOCK DIAGRAM**
-
-image
+<img width="1536" height="1024" alt="ChatGPT Image Sep 5, 2026, 08_40_55 PM" src="https://github.com/user-attachments/assets/223d54a4-8cfd-4050-8158-f73f6a89b60a" />
 
 
 
