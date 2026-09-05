@@ -67,7 +67,7 @@ However, instead of reproducing the Nucleo architecture, our design independentl
 
 **2.BLOCK DIAGRAM**
 
-**STM32F401RE DEVELOPMENT BOARD – BLOCK DIAGRAM**
+
 <img width="1536" height="1024" alt="ChatGPT Image Sep 5, 2026, 08_40_55 PM" src="https://github.com/user-attachments/assets/223d54a4-8cfd-4050-8158-f73f6a89b60a" />
 
 
