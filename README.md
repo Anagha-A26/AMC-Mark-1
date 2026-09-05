@@ -106,16 +106,23 @@ image
 
 
 **5.Major design decisions**
+# 5. Major design decisions
 
-Selected USB Type-C as the USB connector for communication and power input.
-Designed the board to accept 5 V power from either USB-C or an external 5 V connector.
-Selected the AMS1117-3.3 voltage regulator to generate the required 3.3 V supply.
-Used an external ST-Link through the SWD header instead of including an onboard ST-Link debugger.
-Selected PA11 and PA12 for USB D− and D+ communication.
-Selected PA9 and PA10 for UART TX and RX.
-Selected PA4, PA5, PA6 and PA7 for SPI communication.
-Selected PB6 and PB7 for I²C communication.
-Used 4.7 kΩ pull-up resistors for the I²C SCL and SDA lines.
+- Selected USB Type-C as the USB connector for communication and power input.
+- Designed the board to accept 5 V power from either USB-C or an external 5 V connector.
+- Selected the AMS1117-3.3 voltage regulator to generate the required 3.3 V supply.
+- Used an external ST-Link through the SWD header instead of including an onboard ST-Link debugger.
+- Selected PA11 and PA12 for USB D− and D+ communication.
+- Selected PA9 and PA10 for UART TX and RX.
+- Selected PA4, PA5, PA6 and PA7 for SPI communication.
+- Selected PB6 and PB7 for I²C communication.
+- Used 4.7 kΩ pull-up resistors for the I²C SCL and SDA lines.
+- Used 5.1 kΩ pull-down resistors on CC1 and CC2 to configure the USB-C connector for device operation.
+- Pulled BOOT0 to GND using a 10 kΩ resistor to ensure normal boot from internal Flash memory.
+- Used separate headers for UART, SPI, I²C, SWD and GPIO expansion for easier testing and external interfacing.
+- Selected additional unused MCU pins and brought them out through a dedicated GPIO expansion header.
+- Used separate Power ON LED and User LED to distinguish power status from software-controlled indication.
+- Chose a simple push-button reset circuit with a pull-up resistor for reliable manual reset.
 Used 5.1 kΩ pull-down resistors on CC1 and CC2 to configure the USB-C connector for device operation.
 Pulled BOOT0 to GND using a 10 kΩ resistor to ensure normal boot from internal Flash memory.
 Used separate headers for UART, SPI, I²C, SWD and GPIO expansion for easier testing and external interfacing.
