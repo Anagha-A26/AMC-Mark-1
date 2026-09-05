@@ -102,7 +102,7 @@ However, instead of reproducing the Nucleo architecture, our design independentl
 | 22          | Resistor               | 5.1 kΩ                          | 1            | USB-C CC2 pull-down             |
 | 23          | Capacitor              | 10 µF                           | 1            | AMS1117 input capacitor         |
 | 24          | Capacitor              | 10 µF                           | 1            | AMS1117 output capacitor        |
-
+| 25          | Power Multiplexer      | TPS2116DRLR                     | 1            | Priority selection between USB-C 5 V and external 5 V power inputs |
 
 
 
