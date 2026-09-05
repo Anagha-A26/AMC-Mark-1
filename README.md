@@ -73,6 +73,8 @@ However, instead of reproducing the Nucleo architecture, our design independentl
 
 
 **3. Schematic progress**
+<img width="316" height="217" alt="Screenshot 2026-09-05 234424" src="https://github.com/user-attachments/assets/a2f427ab-3d55-424d-8f52-b438fd12cec3" />
+<img width="315" height="217" alt="Screenshot 2026-09-05 234445" src="https://github.com/user-attachments/assets/611ee913-e3ee-452f-a266-0ea5e1e9a070" />
 
 **4. Components Used**
 
