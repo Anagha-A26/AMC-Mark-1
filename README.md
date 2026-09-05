@@ -105,8 +105,8 @@ image
 
 
 
-**5.Major design decisions**
-# 5. Major design decisions
+
+**5. Major design decisions**
 
 - Selected USB Type-C as the USB connector for communication and power input.
 - Designed the board to accept 5 V power from either USB-C or an external 5 V connector.
@@ -123,9 +123,4 @@ image
 - Selected additional unused MCU pins and brought them out through a dedicated GPIO expansion header.
 - Used separate Power ON LED and User LED to distinguish power status from software-controlled indication.
 - Chose a simple push-button reset circuit with a pull-up resistor for reliable manual reset.
-Used 5.1 kΩ pull-down resistors on CC1 and CC2 to configure the USB-C connector for device operation.
-Pulled BOOT0 to GND using a 10 kΩ resistor to ensure normal boot from internal Flash memory.
-Used separate headers for UART, SPI, I²C, SWD and GPIO expansion for easier testing and external interfacing.
-Selected additional unused MCU pins and brought them out through a dedicated GPIO expansion header.
-Used separate Power ON LED and User LED to distinguish power status from software-controlled indication.
-Chose a simple push-button reset circuit with a pull-up resistor for reliable manual reset.
+
