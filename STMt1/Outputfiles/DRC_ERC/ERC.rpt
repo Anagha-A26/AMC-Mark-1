@@ -1,0 +1,15 @@
+ERC report (2026-09-16T20:31:15+0530, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_issues]: The current configuration does not include the symbol library '2026-09-03_18-15-01'
+    ; warning
+    @(4600 mils, 2200 mils): Symbol U1 [STM32F401RET6]
+[lib_symbol_issues]: The current configuration does not include the symbol library '2026-09-03_18-15-01'
+    ; warning
+    @(7800 mils, 2650 mils): Symbol U1 [STM32F401RET6]
+
+***** Sheet /Power/
+
+***** Sheet /MCU/
+
+ ** ERC messages: 2  Errors 0  Warnings 2

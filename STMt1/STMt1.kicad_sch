@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7974f081-45bc-4ad1-8752-5a11b3699f46")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 207.01 102.87)
+		(size 24.13 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e55b888-2583-41a0-a401-a244fc292c31")
+		(property "Sheetname" "Power"
+			(at 207.01 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 207.01 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STMt1"
+				(path "/7974f081-45bc-4ad1-8752-5a11b3699f46"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 102.87)
+		(size 38.1 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "85bdc3f3-7035-41c8-be76-674544bb55c1")
+		(property "Sheetname" "MCU"
+			(at 73.66 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 73.66 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STMt1"
+				(path "/7974f081-45bc-4ad1-8752-5a11b3699f46"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
